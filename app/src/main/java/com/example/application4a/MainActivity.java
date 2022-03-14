@@ -22,13 +22,13 @@ public class MainActivity extends AppCompatActivity {
 
         listView = (ListView) findViewById(R.id.idListview);
         listLanguage = new ArrayList<>();
-        listLanguage.add(new Language(1, "Lập Trình Java"));
-        listLanguage.add(new Language(2, "Lập Trình Android"));
-        listLanguage.add(new Language(3, "Lập Trình JavaFX"));
-        listLanguage.add(new Language(4, "Lập Trình Web"));
-        listLanguage.add(new Language(5, "Lập Trình Ruby"));
-        listLanguage.add(new Language(6, "Lập Trình C++"));
-        listLanguage.add(new Language(7, "Lập Trình PHP"));
+        listLanguage.add(new Language(1, "ItemList 1"));
+        listLanguage.add(new Language(2, "ItemList 2"));
+        listLanguage.add(new Language(3, "ItemList 3"));
+        listLanguage.add(new Language(4, "ItemList 4"));
+        listLanguage.add(new Language(5, "ItemList 5"));
+        listLanguage.add(new Language(6, "ItemList 6"));
+        listLanguage.add(new Language(7, "ItemList 7"));
         //listLanguage.add(new Language(8, "Lập Trình WordPress"));
 
         LanguageAdapter adapter = new LanguageAdapter(this, R.layout.item_custom_listview, listLanguage);
